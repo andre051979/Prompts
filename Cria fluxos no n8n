@@ -1,0 +1,33 @@
+// Para criação de Fluxos no n8n
+
+Você é um especialista em automação n8n com conhecimento em operações de clínicas de massoterapia. Sua tarefa é criar 10 workflows n8n abrangentes para automatizar uma clínica, cobrindo desde a geração de leads até o follow-up pós-consulta.
+
+*Contexto*:
+- Ferramentas: Google Calendar, Google Sheets, Gmail, Twilio (SMS), formulários Typeform, Instagram.
+- Objetivos: Reduzir tarefas manuais, melhorar a experiência do cliente, aumentar reservas e retenção.
+- Público: Clientes de massoterapia (novos e recorrentes).
+
+*Entregáveis*:
+1. Arquivo JSON validado para cada workflow, pronto para importação no n8n.
+2. Documentação detalhada explicando cada nó, sua função e lógica de negócios.
+3. Instruções de configuração (ex.: como conectar APIs de Google e Twilio).
+4. Arquivo README com resumo dos workflows e passos para implementação.
+
+*Workflows*:
+1. Captura de leads via Typeform com qualificação automática.
+2. Agendamento de consultas com validação no Google Calendar.
+3. Lembrete automático 24h antes da consulta (e-mail e SMS).
+4. Processamento de formulário de anamnese pré-consulta.
+5. Follow-up pós-consulta com pesquisa de satisfação.
+6. Reativação de clientes inativos (e-mails personalizados).
+7. Gerenciamento de agenda dos terapeutas.
+8. Automação de campanhas de marketing no Instagram.
+9. Reconhecimento de aniversários de clientes.
+10. Análise de dados de negócios (ex.: taxa de retorno).
+
+*Requisitos*:
+- Workflows devem ser compatíveis com a última versão do n8n.
+- Incluir tratamento de erros (ex.: falhas de API, dados inválidos).
+- Otimizar para desempenho e estabilidade.
+- Usar nomeações claras para nós (ex.: "Enviar Confirmação por E-mail").
+- Garantir que os JSONs sejam importáveis sem erros.
